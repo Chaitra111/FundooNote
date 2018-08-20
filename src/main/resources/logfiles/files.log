@@ -1,0 +1,137 @@
+2018-08-13 09:42:12.366  INFO 5020 --- [main] com.bridgelabz.ToDo_1.ToDo1Application   : Starting ToDo1Application on bridgeit with PID 5020 (/home/bridgeit/Documents/program_chaitra/ToDo_1/target/classes started by bridgeit in /home/bridgeit/Documents/program_chaitra/ToDo_1)
+2018-08-13 09:42:12.402  INFO 5020 --- [main] com.bridgelabz.ToDo_1.ToDo1Application   : No active profile set, falling back to default profiles: default
+2018-08-13 09:42:12.465  INFO 5020 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6069db50: startup date [Mon Aug 13 09:42:12 IST 2018]; root of context hierarchy
+2018-08-13 09:42:13.852  INFO 5020 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'rabbitTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=rabbitMQConfig; factoryMethodName=rabbitTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/bridgelabz/ToDo_1/configuration/RabbitMQConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration$RabbitTemplateConfiguration; factoryMethodName=rabbitTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitTemplateConfiguration.class]]
+2018-08-13 09:42:13.972  INFO 5020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-13 09:42:14.003  INFO 5020 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bridgelabz.ToDo_1.userservice.repository.UserRepository.
+2018-08-13 09:42:14.044  INFO 5020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-13 09:42:14.085  INFO 5020 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.bridgelabz.ToDo_1.note.repository.LabelElasticRepository.
+2018-08-13 09:42:14.089  INFO 5020 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.bridgelabz.ToDo_1.note.repository.NoteElasticRepository.
+2018-08-13 09:42:14.092  INFO 5020 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'noteMongoRepository' with a different definition: replacing [Root bean: class [org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.data.mongodb.repository.support.MongoRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-08-13 09:42:14.094  INFO 5020 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'labelRepository' with a different definition: replacing [Root bean: class [org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.data.mongodb.repository.support.MongoRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2018-08-13 09:42:14.151  INFO 5020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-13 09:42:14.164  INFO 5020 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bridgelabz.ToDo_1.note.repository.LabelElasticRepository.
+2018-08-13 09:42:14.164  INFO 5020 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bridgelabz.ToDo_1.note.repository.LabelRepository.
+2018-08-13 09:42:14.165  INFO 5020 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bridgelabz.ToDo_1.note.repository.NoteElasticRepository.
+2018-08-13 09:42:14.165  INFO 5020 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bridgelabz.ToDo_1.note.repository.NoteMongoRepository.
+2018-08-13 09:42:14.166  INFO 5020 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bridgelabz.ToDo_1.userservice.repository.UserRepository.
+2018-08-13 09:42:14.434  INFO 5020 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-13 09:42:14.496  INFO 5020 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$d372d93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-13 09:42:14.823  INFO 5020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-08-13 09:42:14.839  INFO 5020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-13 09:42:14.839  INFO 5020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-13 09:42:14.843  INFO 5020 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+2018-08-13 09:42:14.905  INFO 5020 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-13 09:42:15.006  INFO 5020 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-08-13 09:42:15.010  INFO 5020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-13 09:42:15.010  INFO 5020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-13 09:42:15.010  INFO 5020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-13 09:42:15.011  INFO 5020 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-13 09:42:15.306  INFO 5020 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-08-13 09:42:15.306  INFO 5020 --- [main] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2018-08-13 09:42:15.342  INFO 5020 --- [cluster-ClusterId{value='5b71051fd90966139c756e55', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2018-08-13 09:42:15.344  INFO 5020 --- [cluster-ClusterId{value='5b71051fd90966139c756e55', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 6]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1841276}
+2018-08-13 09:42:15.345  INFO 5020 --- [cluster-ClusterId{value='5b71051fd90966139c756e55', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2018-08-13 09:42:15.464  WARN 5020 --- [main] o.s.d.m.c.m.BasicMongoPersistentProperty : Customizing field name for id property not allowed! Custom name will not be considered!
+2018-08-13 09:42:16.049  INFO 5020 --- [main] o.elasticsearch.plugins.PluginsService   : no modules loaded
+2018-08-13 09:42:16.050  INFO 5020 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2018-08-13 09:42:16.050  INFO 5020 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2018-08-13 09:42:16.050  INFO 5020 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2018-08-13 09:42:16.050  INFO 5020 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2018-08-13 09:42:16.050  INFO 5020 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018-08-13 09:42:17.145  INFO 5020 --- [main] i.netty.util.internal.PlatformDependent  : Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2018-08-13 09:42:17.198  INFO 5020 --- [main] o.s.d.e.c.TransportClientFactoryBean     : adding transport node : localhost:9300
+2018-08-13 09:42:19.375  INFO 5020 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-13 09:42:19.385  INFO 5020 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-08-13 09:42:19.388  INFO 5020 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-08-13 09:42:19.468  INFO 5020 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-08-13 09:42:19.468  INFO 5020 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-08-13 09:42:19.495  INFO 5020 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-08-13 09:42:19.506  INFO 5020 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-08-13 09:42:19.759  INFO 5020 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2018-08-13 09:42:19.808  INFO 5020 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#119d4443:0/SimpleConnection@249e8540 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53930]
+2018-08-13 09:42:19.817  INFO 5020 --- [SimpleAsyncTaskExecutor-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue () durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2018-08-13 09:42:19.882  INFO 5020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-13 09:42:19.885  INFO 5020 --- [main] com.bridgelabz.ToDo_1.ToDo1Application   : Started ToDo1Application in 8.108 seconds (JVM running for 9.123)
+2018-08-13 09:42:29.009  INFO 5020 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-13 09:42:29.035  INFO 5020 --- [http-nio-8080-exec-6] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.036  INFO 5020 --- [http-nio-8080-exec-3] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.036  INFO 5020 --- [http-nio-8080-exec-4] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.037  INFO 5020 --- [http-nio-8080-exec-2] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.037  INFO 5020 --- [http-nio-8080-exec-5] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.039  INFO 5020 --- [http-nio-8080-exec-4] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.039  INFO 5020 --- [http-nio-8080-exec-3] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.039  INFO 5020 --- [http-nio-8080-exec-6] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.039  INFO 5020 --- [http-nio-8080-exec-4] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.039  INFO 5020 --- [http-nio-8080-exec-3] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.039  INFO 5020 --- [http-nio-8080-exec-6] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.040  INFO 5020 --- [http-nio-8080-exec-2] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.040  INFO 5020 --- [http-nio-8080-exec-2] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.041  INFO 5020 --- [http-nio-8080-exec-5] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.041  INFO 5020 --- [http-nio-8080-exec-5] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.042  INFO 5020 --- [http-nio-8080-exec-1] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.042  INFO 5020 --- [http-nio-8080-exec-1] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.042  INFO 5020 --- [http-nio-8080-exec-1] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.045  INFO 5020 --- [http-nio-8080-exec-2] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.046  INFO 5020 --- [http-nio-8080-exec-8] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.046  INFO 5020 --- [http-nio-8080-exec-2] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.046  INFO 5020 --- [http-nio-8080-exec-2] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.046  INFO 5020 --- [http-nio-8080-exec-8] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.046  INFO 5020 --- [http-nio-8080-exec-8] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.048  INFO 5020 --- [http-nio-8080-exec-7] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.049  INFO 5020 --- [http-nio-8080-exec-7] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.049  INFO 5020 --- [http-nio-8080-exec-7] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.050  INFO 5020 --- [http-nio-8080-exec-9] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.051  INFO 5020 --- [http-nio-8080-exec-9] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.051  INFO 5020 --- [http-nio-8080-exec-9] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.053  INFO 5020 --- [http-nio-8080-exec-10] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.054  INFO 5020 --- [http-nio-8080-exec-10] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.054  INFO 5020 --- [http-nio-8080-exec-10] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.063  INFO 5020 --- [http-nio-8080-exec-3] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.064  INFO 5020 --- [http-nio-8080-exec-3] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.064  INFO 5020 --- [http-nio-8080-exec-3] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.071  INFO 5020 --- [http-nio-8080-exec-5] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.072  INFO 5020 --- [http-nio-8080-exec-5] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.072  INFO 5020 --- [http-nio-8080-exec-1] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.072  INFO 5020 --- [http-nio-8080-exec-5] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.073  INFO 5020 --- [http-nio-8080-exec-1] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.073  INFO 5020 --- [http-nio-8080-exec-1] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.079  INFO 5020 --- [http-nio-8080-exec-4] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.080  INFO 5020 --- [http-nio-8080-exec-4] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.080  INFO 5020 --- [http-nio-8080-exec-4] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.115  INFO 5020 --- [http-nio-8080-exec-2] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.115  INFO 5020 --- [http-nio-8080-exec-2] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.116  INFO 5020 --- [http-nio-8080-exec-2] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.334  INFO 5020 --- [http-nio-8080-exec-8] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.335  INFO 5020 --- [http-nio-8080-exec-8] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.335  INFO 5020 --- [http-nio-8080-exec-8] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.409  INFO 5020 --- [http-nio-8080-exec-6] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.410  INFO 5020 --- [http-nio-8080-exec-6] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.410  INFO 5020 --- [http-nio-8080-exec-6] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.427  INFO 5020 --- [http-nio-8080-exec-7] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.429  INFO 5020 --- [http-nio-8080-exec-9] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.452  INFO 5020 --- [http-nio-8080-exec-10] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.454  INFO 5020 --- [http-nio-8080-exec-9] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.454  INFO 5020 --- [http-nio-8080-exec-9] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.459  INFO 5020 --- [http-nio-8080-exec-7] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.460  INFO 5020 --- [http-nio-8080-exec-7] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.517  INFO 5020 --- [http-nio-8080-exec-10] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.517  INFO 5020 --- [http-nio-8080-exec-10] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.523  INFO 5020 --- [http-nio-8080-exec-3] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.531  INFO 5020 --- [http-nio-8080-exec-3] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.531  INFO 5020 --- [http-nio-8080-exec-3] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.551  INFO 5020 --- [http-nio-8080-exec-5] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.662  INFO 5020 --- [http-nio-8080-exec-5] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.662  INFO 5020 --- [http-nio-8080-exec-5] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 09:42:29.809  INFO 5020 --- [http-nio-8080-exec-1] c.b.T.u.l.LoggerInterceptor              : Before handling the request
+2018-08-13 09:42:29.814  INFO 5020 --- [http-nio-8080-exec-1] c.b.T.u.l.LoggerInterceptor              : After handling the request
+2018-08-13 09:42:29.815  INFO 5020 --- [http-nio-8080-exec-1] c.b.T.u.l.LoggerInterceptor              : After rendering the view
+2018-08-13 10:54:15.420  INFO 5020 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-13 10:54:15.445  INFO 5020 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6069db50: startup date [Mon Aug 13 09:42:12 IST 2018]; root of context hierarchy
+2018-08-13 10:54:15.469  INFO 5020 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-08-13 10:54:15.515  INFO 5020 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2018-08-13 10:54:16.364  INFO 5020 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2018-08-13 10:54:16.364  INFO 5020 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-08-13 10:54:16.413  INFO 5020 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2018-08-13 10:54:16.414  INFO 5020 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-13 10:54:16.415  INFO 5020 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
